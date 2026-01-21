@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\C# projects\\Employee Management System\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|c:\\c# projects\\employee management system\\employee management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|c:\\c# projects\\employee management system\\employee management system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|c:\\c# projects\\employee management system\\employee management system\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|c:\\c# projects\\employee management system\\employee management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|solutionrelative:employee management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{951686FD-C298-5F8D-F13C-6F689C94E78B}|Employee Management System\\Employee Management System.csproj|c:\\c# projects\\employee management system\\employee management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
@@ -135,42 +135,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "about.cshtml",
-              "DocumentMoniker": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\about.cshtml",
-              "RelativeDocumentMoniker": "Employee Management System\\Views\\Home\\about.cshtml",
-              "ToolTip": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\about.cshtml",
-              "RelativeToolTip": "Employee Management System\\Views\\Home\\about.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T12:26:45.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Employee Management System\\Views\\Home\\Privacy.cshtml",
               "ToolTip": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "Employee Management System\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAAACMBAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T08:14:47.423Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Employee Management System\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Employee Management System\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAACYBAAAAAAAAAAAAAD4BAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-01-21T08:14:42.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T08:14:47.423Z"
             },
             {
               "$type": "Document",
@@ -182,8 +155,7 @@
               "RelativeToolTip": "Employee Management System\\Migrations\\AppDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T07:22:33.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T07:22:33.675Z"
             },
             {
               "$type": "Document",
@@ -195,12 +167,11 @@
               "RelativeToolTip": "Employee Management System\\Migrations\\20260115092902_InitialCreat.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T07:22:01.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-21T07:22:01.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\C# projects\\Employee Management System\\Employee Management System\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Employee Management System\\Controllers\\HomeController.cs",
@@ -208,8 +179,7 @@
               "RelativeToolTip": "Employee Management System\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-20T12:05:23.066Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-20T12:05:23.066Z"
             },
             {
               "$type": "Document",
@@ -221,18 +191,17 @@
               "RelativeToolTip": "Employee Management System\\Helpers\\DatabaseHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-16T11:26:30.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-16T11:26:30.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Employee Management System\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Employee Management System\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-01-15T07:11:33.469Z",
               "EditorCaption": ""
@@ -247,8 +216,31 @@
               "RelativeToolTip": "Employee Management System\\Program.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAQwBcAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T06:41:34.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-15T06:41:34.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Employee Management System\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Employee Management System\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACYBAAAAAAAAAAAAAD4BAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T08:14:42.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "about.cshtml",
+              "DocumentMoniker": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\about.cshtml",
+              "RelativeDocumentMoniker": "Employee Management System\\Views\\Home\\about.cshtml",
+              "ToolTip": "C:\\C# projects\\Employee Management System\\Employee Management System\\Views\\Home\\about.cshtml",
+              "RelativeToolTip": "Employee Management System\\Views\\Home\\about.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-21T12:26:45.62Z"
             },
             {
               "$type": "Document",
