@@ -1,8 +1,323 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Employee Management System";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!-- Features Overview -->
+<section class="features-section py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h2 class="section-title mb-3">Everything You Need in One Platform</h2>
+            <p class="section-subtitle text-muted">
+                Comprehensive tools for modern HR management
+            </p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-user-tie fa-3x text-primary"></i>
+                    </div>
+                    <h4 class="feature-title mb-3">Employee Database</h4>
+                    <p class="feature-description">
+                        Centralized employee profiles with complete HR records, documents, and history.
+                    </p>
+                    <a href="/Home/Features#database" class="btn btn-link">Learn More →</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-calendar-alt fa-3x text-success"></i>
+                    </div>
+                    <h4 class="feature-title mb-3">Attendance & Leave</h4>
+                    <p class="feature-description">
+                        Automated time tracking, leave management, and attendance reporting.
+                    </p>
+                    <a href="/Home/Features#attendance" class="btn btn-link">Learn More →</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-chart-line fa-3x text-warning"></i>
+                    </div>
+                    <h4 class="feature-title mb-3">Performance</h4>
+                    <p class="feature-description">
+                        360-degree feedback, goal tracking, and performance appraisal cycles.
+                    </p>
+                    <a href="/Home/Features#performance" class="btn btn-link">Learn More →</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="feature-card text-center p-4 h-100">
+                    <div class="feature-icon mb-3">
+                        <i class="fas fa-file-invoice-dollar fa-3x text-danger"></i>
+                    </div>
+                    <h4 class="feature-title mb-3">Payroll</h4>
+                    <p class="feature-description">
+                        Seamless payroll processing with tax calculations and compliance.
+                    </p>
+                    <a href="/Home/Features#payroll" class="btn btn-link">Learn More →</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- System Statistics -->
+<section class="stats-section bg-light py-5">
+    <div class="container py-5">
+        <div class="row text-center">
+            <div class="col-md-3 mb-4">
+                <div class="stat-item">
+                    <h3 class="stat-number display-4 fw-bold text-primary">98%</h3>
+                    <p class="stat-label">User Satisfaction</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="stat-item">
+                    <h3 class="stat-number display-4 fw-bold text-success">40%</h3>
+                    <p class="stat-label">HR Process Efficiency</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="stat-item">
+                    <h3 class="stat-number display-4 fw-bold text-warning">75%</h3>
+                    <p class="stat-label">Paperwork Reduction</p>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="stat-item">
+                    <h3 class="stat-number display-4 fw-bold text-info">24/7</h3>
+                    <p class="stat-label">System Availability</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<!-- Footer Navigation -->
+<footer class="footer-nav bg-dark text-light py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <h5>Employee Management System</h5>
+                <p class="small">Comprehensive HR solution for modern businesses.</p>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6>Product</h6>
+                <ul class="list-unstyled">
+                    <li><a href="/Home/Features" class="text-light text-decoration-none">Features</a></li>
+                    <li><a href="/Home/Pricing" class="text-light text-decoration-none">Pricing</a></li>
+                    <li><a href="/Home/About" class="text-light text-decoration-none">About</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6>Resources</h6>
+                <ul class="list-unstyled">
+                    <li><a href="/Home/Documentation" class="text-light text-decoration-none">Documentation</a></li>
+                    <li><a href="/Home/Support" class="text-light text-decoration-none">Support</a></li>
+                    <li><a href="/Home/Blog" class="text-light text-decoration-none">Blog</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6>Legal</h6>
+                <ul class="list-unstyled">
+                    <li><a href="/Home/Privacy" class="text-light text-decoration-none">Privacy Policy</a></li>
+                    <li><a href="/Home/Terms" class="text-light text-decoration-none">Terms of Service</a></li>
+                    <li><a href="/Home/Security" class="text-light text-decoration-none">Security</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 mb-3">
+                <h6>Connect</h6>
+                <div class="social-links">
+                    <a href="#" class="text-light me-3"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-light me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+    /* Custom Styles */
+    .bg-gradient-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #2c3e50;
+    }
+
+    .section-subtitle {
+        font-size: 1.1rem;
+        color: #6c757d;
+    }
+
+    .feature-card {
+        background: white;
+        border-radius: 15px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+        }
+
+    .feature-icon {
+        color: #667eea;
+    }
+
+    .feature-title {
+        color: #2c3e50;
+        font-weight: 600;
+    }
+
+    .feature-description {
+        color: #6c757d;
+        line-height: 1.6;
+    }
+
+    .stats-overlay {
+        position: absolute;
+        bottom: -20px;
+        right: -20px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .stat-item {
+        padding: 20px;
+    }
+
+    .stat-number {
+        margin-bottom: 0;
+    }
+
+    .stat-label {
+        color: #6c757d;
+        font-weight: 500;
+    }
+
+    .step-card {
+        background: white;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        position: relative;
+        border-left: 4px solid #667eea;
+    }
+
+    .step-number {
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        background: #667eea;
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .demo-screenshot {
+        position: relative;
+    }
+
+    .screenshot-frame {
+        border: 10px solid white;
+        border-radius: 10px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        overflow: hidden;
+    }
+
+    .testimonial-card {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border-radius: 15px;
+        padding: 30px;
+        height: 100%;
+    }
+
+    .testimonial-content {
+        font-style: italic;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .testimonial-author {
+        display: flex;
+        align-items: center;
+    }
+
+    .author-avatar {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 15px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .author-title {
+        font-size: 0.9rem;
+        opacity: 0.9;
+        margin-bottom: 0;
+    }
+
+    .btn-link {
+        color: #667eea;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+        .btn-link:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+    .cta-section {
+        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    }
+
+    /* Responsive adjustments */
+    @@media (max-width: 768px) {
+        .stats-overlay {
+            position: relative;
+            bottom: auto;
+            right: auto;
+            margin-top: 20px;
+        }
+
+        .display-4 {
+            font-size: 2.5rem;
+        }
+
+        .section-title {
+            font-size: 2rem;
+        }
+    }
+</style>
+
+<!-- Bootstrap & Font Awesome Scripts (if not already included) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">

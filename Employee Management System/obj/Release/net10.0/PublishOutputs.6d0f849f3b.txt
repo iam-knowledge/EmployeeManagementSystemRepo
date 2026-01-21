@@ -7,7 +7,6 @@ C:\C# projects\Employee Management System\Employee Management System\obj\Release
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Azure.Core.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Azure.Identity.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
-C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Microsoft.Bcl.Cryptography.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Microsoft.Data.SqlClient.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -24,6 +23,7 @@ C:\C# projects\Employee Management System\Employee Management System\obj\Release
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Microsoft.SqlServer.Server.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\System.ClientModel.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\System.Data.SqlClient.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\System.Memory.Data.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
@@ -45,4 +45,9 @@ C:\C# projects\Employee Management System\Employee Management System\obj\Release
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\PubTmp\Out\Employee Management System.deps.json

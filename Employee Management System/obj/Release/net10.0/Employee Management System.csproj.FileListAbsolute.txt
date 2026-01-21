@@ -11,7 +11,6 @@ C:\C# projects\Employee Management System\Employee Management System\bin\Release
 C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\Azure.Identity.dll
 C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\Humanizer.dll
 C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\Microsoft.Build.Framework.dll
 C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\Microsoft.CodeAnalysis.dll
 C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -223,3 +222,10 @@ C:\C# projects\Employee Management System\Employee Management System\obj\Release
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\Employee Management System.pdb
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\Employee Management System.genruntimeconfig.cache
 C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\ref\Employee Management System.dll
+C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\System.Data.SqlClient.dll
+C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\runtimes\win-arm64\native\sni.dll
+C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\runtimes\win-x64\native\sni.dll
+C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\runtimes\win-x86\native\sni.dll
+C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\runtimes\unix\lib\net8.0\System.Data.SqlClient.dll
+C:\C# projects\Employee Management System\Employee Management System\bin\Release\net10.0\runtimes\win\lib\net8.0\System.Data.SqlClient.dll
+C:\C# projects\Employee Management System\Employee Management System\obj\Release\net10.0\Employee Management System.sourcelink.json
