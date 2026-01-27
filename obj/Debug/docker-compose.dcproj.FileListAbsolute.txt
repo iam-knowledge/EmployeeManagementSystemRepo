@@ -1,0 +1,33 @@
+C:\C# projects\Employee Management System\bin\Debug\Employee Management System.deps.json
+C:\C# projects\Employee Management System\bin\Debug\Employee Management System.runtimeconfig.json
+C:\C# projects\Employee Management System\bin\Debug\appsettings.Development.json
+C:\C# projects\Employee Management System\bin\Debug\appsettings.json
+C:\C# projects\Employee Management System\bin\Debug\Employee Management System.staticwebassets.runtime.json
+C:\C# projects\Employee Management System\bin\Debug\Employee Management System.staticwebassets.endpoints.json
+C:\C# projects\Employee Management System\bin\Debug\Employee Management System.exe
+C:\C# projects\Employee Management System\bin\Debug\Employee Management System.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+C:\C# projects\Employee Management System\bin\Debug\System.Data.SqlClient.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.Identity.Client.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\C# projects\Employee Management System\bin\Debug\Employee Management System.pdb
+C:\C# projects\Employee Management System\bin\Debug\cs\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\pl\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\tr\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\C# projects\Employee Management System\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
+C:\C# projects\Employee Management System\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\C# projects\Employee Management System\obj\Debug\docker-c.35A3FFBA.Up2Date

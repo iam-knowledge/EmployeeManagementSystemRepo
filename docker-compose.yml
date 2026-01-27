@@ -1,0 +1,6 @@
+services:
+  employeemanagementsystem:
+    image: ${DOCKER_REGISTRY-}employeemanagementsystem
+    build:
+      context: .
+      dockerfile: Employee Management System/Dockerfile
