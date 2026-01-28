@@ -29,26 +29,9 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About us</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Index">List Employees</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
-                        </li>
 
-                        @if (User.Identity.IsAuthenticated)
-                        {
-                            <div class="navbar-nav ms-auto">
-                                <span class="nav-item nav-link">Welcome, @User.Identity.Name!</span>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Employees" asp-action="Index">List Employees</a>
-                            </li>
-                                <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
-                                    <button type="submit" class="btn btn-outline-light btn-sm">Logout</button>
-                                </form>
-                            </div>
-                        }
-
+                        <partial name="_LoginPartial.cshtml" />
+                       
                     </ul>
                 </div>
             </div>

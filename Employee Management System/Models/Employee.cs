@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Employee_Management_System.Models
 {
-    public class Employee
+    public class Employee 
     {
         public int Id { get; set; }
 

@@ -1,8 +1,8 @@
 
 using Employee_Management_System.Data;
-using Employee_Management_System.Helpers;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 
 namespace Employee_Management_System
@@ -15,14 +15,12 @@ namespace Employee_Management_System
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
-            // Register DatabaseHelper as a scoped service
-            builder.Services.AddScoped<DatabaseHelper>();
-
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();
             builder.Services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
             );
+
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDbContext>();
 
             // Configure authentication
             builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -58,13 +56,20 @@ namespace Employee_Management_System
             app.UseHttpsRedirection();
             app.UseRouting();
 
+            //Enable authentication and authorization 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapStaticAssets();
+
+            // Map both MVC controllers and Razor Pages
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}")
                 .WithStaticAssets();
+            // Then ensure Razor Pages is enabled
+            app.MapRazorPages(); // This is crucial for Identity pages!
+
 
             app.Run();
         }

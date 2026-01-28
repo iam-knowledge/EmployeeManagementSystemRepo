@@ -8,7 +8,6 @@ C:\C# projects\Employee Management System\bin\Debug\Employee Management System.e
 C:\C# projects\Employee Management System\bin\Debug\Employee Management System.dll
 C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.dll
 C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
-C:\C# projects\Employee Management System\bin\Debug\System.Data.SqlClient.dll
 C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\C# projects\Employee Management System\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\C# projects\Employee Management System\bin\Debug\Microsoft.Data.SqlClient.dll
@@ -31,3 +30,5 @@ C:\C# projects\Employee Management System\bin\Debug\zh-Hant\Microsoft.Data.SqlCl
 C:\C# projects\Employee Management System\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\C# projects\Employee Management System\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\C# projects\Employee Management System\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.AspNetCore.Identity.UI.dll
+C:\C# projects\Employee Management System\bin\Debug\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
